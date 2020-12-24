@@ -22,6 +22,6 @@ public class AwsCicdTutorialApplication {
 
   @GetMapping("/hello")
   public Publisher<String> hello() {
-    return Mono.just("hello - " + id);
+    return Mono.just("hello v2 - " + id);
   }
 }
